@@ -13,7 +13,7 @@ namespace DotNetCorePractice
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseUrls("Http://*5000/")
+                .UseUrls("http://*:5001")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .UseStartup<Startup>()
