@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata: 
-  name: dotnettest-deployment
+  name: dotnetcorepractice-deployment
 spec:
   template:
     metadata: 
@@ -18,7 +18,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: dotnettest-service
+  name: dotnetcorepractice-service
   labels:
     app: dotnetcorepractice
 spec:
